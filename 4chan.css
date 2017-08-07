@@ -43,13 +43,14 @@ a.quotelink {
 hr {
  border-color:#a5a5a5;
 }
-
+div.op {
+  text-align:left;}
+  
 div.thread {
     text-align:center;
 }
 
-    .fileText {
-        opacity: 0 !important;
+    .fileText {opacity: 0 !important;
         max-height: 0px !important;
         transition: .4s ease-out !important;
     }
@@ -120,7 +121,7 @@ padding: 2px;
 content: "#"counter(posts);
 }
 
-div.reply div.reply div.postInfo:after, div.op > div.postInfo:after{display:none;}
+  div.reply div.reply div.postInfo:after, div.op > div.postInfo:after{display:none;}
 
 /*Makes the comment box bigger*/
 textarea{height:10em !important;width:30em !important;}
@@ -153,14 +154,13 @@ ul.rules{display:none !important;}
 .hide-thread-button,
   .fa-plus-square-o::before,
 .hide-reply-button.stub a::before,
-  .postForm,
   .hide-reply-button,
   .postingMode,
   .stylechanger,
   .webm-title,
   .txt-no,
-	.txt-ctrl,
-  #togglePostFormLink {
+	.txt-ctrl,hreadHideButton
+{
     display: none !important;
     }
     
