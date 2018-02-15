@@ -39,6 +39,10 @@ a.quotelink {
  color: #a5a5a5!important;
 }
 
+span.subject {
+    color: #a4a4a4 !important;
+}
+
 /* stuff */
 hr {
  border-color:#a5a5a5;
