@@ -96,6 +96,20 @@ span.subject {
 
 /* stuff */
 
+  a
+  {
+    color: #f44336;
+  }
+
+
+div.post div.postInfo span.nameBlock span.name{
+color: #fff;
+}
+.reply:target, .reply.highlight{
+    background:#383838!important;
+    border: 1px solid #383838 !important;
+}
+
 div.post div.postInfo span.postNum > a
 {
     color:#fff!important;
@@ -227,11 +241,11 @@ div#absbot{display:none !important;}
 
     #custom-board-list {
          font-family: "Helvetica" !important;
-    display: inline !important;
     white-space: normal !important;
-    position: relative !important;
-    top: 0px !important;
-    left: 106px !important;
+    top: 0px !important; 
+        -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
     z-index: 0 !important;
   }
     
