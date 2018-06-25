@@ -2,7 +2,7 @@
 body {
  background: none;
  background-color: #222;
- color: #a5a5a5;
+ color: #a4a4a4;
  font-size:90%;
 }
 
@@ -35,7 +35,7 @@ a.quotelink {
 
 /* random other links */
 .postNum a, a.quotelink, .nameBlock, .nameBlock a {
- color: #a5a5a5!important;
+ color: #a4a4a4!important;
 }
 
 span.subject {
@@ -43,6 +43,11 @@ span.subject {
 }
 
 /* stuff */
+
+div.post div.postInfo span.postNum > a
+{
+    color:#fff!important;
+}
 hr {
  border-color:#a5a5a5;
 }
@@ -50,7 +55,7 @@ div.op {
   text-align:left;}
   
 div.thread {
-    text-align:center;
+    text-align:left;
 }
 
     .fileText {opacity: 0 !important;
@@ -68,7 +73,7 @@ div.thread {
 div.reply {
   position: relative;
   top: relative;
-  width: 100%;
+  width: 99%;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -309,6 +314,7 @@ ul.rules{display:none !important;}
     transition: all 0.9s ease;
   }
 
+
     #qr .move {
     position: fixed !important;
     float: right !important;
@@ -359,7 +365,7 @@ ul.rules{display:none !important;}
   }
 
   #qr-filename-container {
-    font-family: "Roboto", "Source Han Sans JP Regular", "Meiryo" !important;
+    font-family: "Helvetica" !important;
     box-shadow: none !important;
     border: none !important;
     margin-top: 2px !important;
