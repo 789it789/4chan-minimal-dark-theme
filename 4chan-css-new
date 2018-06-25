@@ -1,3 +1,55 @@
+/* catalog */  
+    
+.board {
+    margin: 0 auto !important;
+    max-width: 1500px !important;
+    margin-top: 20px !important;
+}    
+    
+.catalog-mode:root .board {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    }    
+    
+.navLinks {
+    background: var(--post-bg) !important;
+    padding: 0px !important;
+    margin: 0 auto !important;
+    max-width: 1540px !important;
+    margin-top: 60px !important;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}    
+  
+.catalog-mode:root .board {
+  padding: 25px !important;
+}  
+    
+.catalog-stats {
+    background: var(--alt-bg) !important;
+    padding: 5px !important;
+}      
+.catalog-thread > .subject {
+    background: var(--header-bg) !important;
+    padding: 5px !important;
+}    
+.catalog-thread > .comment {
+    background: var(--header-bg) !important;
+    padding: 5px !important;
+}    
+    
+
+/* dropdowns */    
+    
+select {    
+    text-align: center !important;
+    width: 100px !important;    
+    height: 23px !important;
+}    
+    
+#index-options select {
+    margin-right: 10px !important;
+}    
+
+
 /* Background */
 body {
  background: none;
@@ -139,8 +191,8 @@ img.title,div.boardSubtitle{display:none !important;}
 
 /*removes the rules and info underneath the post box*/
 ul.rules{display:none !important;}
-
-    
+div#absbot{display:none !important;}
+.bottomCtrl{display:none !important;}
     .boardBanner {    /*   banner */
      position: relative;
      top: relative;
@@ -174,6 +226,7 @@ ul.rules{display:none !important;}
     
 
     #custom-board-list {
+         font-family: "Helvetica" !important;
     display: inline !important;
     white-space: normal !important;
     position: relative !important;
@@ -197,7 +250,7 @@ ul.rules{display:none !important;}
      margin-left: auto;
      margin-right: auto;
     box-shadow: none !important;
-    font-family: "Roboto", "Source Han Sans JP Regular", "Meiryo" !important;
+    font-family: "Helvetica" !important;
     }
     
       #board-list a {
