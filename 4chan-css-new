@@ -94,7 +94,19 @@ span.subject {
     color: #a4a4a4 !important;
 }
 
+/*codeblocks*/
+  .prettyprint
+  {
+    background: none !important;
+  }
+
+  .prettyprint span
+  {
+    color: rgb(195, 195, 195) !important;
+  }
+
 /* stuff */
+
 
   a
   {
