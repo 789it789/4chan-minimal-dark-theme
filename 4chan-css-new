@@ -7,7 +7,7 @@
 
 #announce {
     background: #222;
-    color: #a4a4a4;
+    color: #383838;
 }
 #logo-fp img {
     margin: auto;
@@ -47,18 +47,19 @@ h3 {
 }
 
 #announce .boxbar {
-    background: #a4a4a4;
+    background: #383838;
     color: #222;
     text-align: center;
 }
 
 .boxbar {
-    background: #a4a4a4;
+    background: #383838;
     color: #222;
     text-align: center;
 }
 .top-box {
     background: #222;
+    color: #383838;
 }
 
 #ft li.current, #ft li.fill {
@@ -72,7 +73,7 @@ h3 {
 
 #ft li {
     background: #222;
-    color: #a4a4a4;
+    color: #383838;
 }
 
 #ft li a {
