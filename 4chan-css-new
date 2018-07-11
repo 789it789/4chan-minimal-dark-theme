@@ -1,3 +1,94 @@
+/*mainpage*/
+#wot-cnt {
+    min-height: 91px;
+    background-color: #222;
+    color: #a4a4a4;
+}
+
+#announce {
+    background: #222;
+    color: #a4a4a4;
+}
+#logo-fp img {
+    margin: auto;
+    display: block;
+    border: 0;
+    background: url(https://i.imgur.com/msrfbun.png) center top no-repeat;
+    -moz-box-sizing: border-box;
+  box-sizing: border-box;
+    width: 448px;
+    height: 240px;
+  padding-left: 448px;
+}
+
+.boxcontent {
+    padding: .5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    padding-top: .25em;
+    padding-bottom: 0;
+    line-height: 130%;
+    background-color: #222;
+    color: #a4a4a4;
+}
+h3 {
+    font-size: 100%;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+#boards a:hover {
+    color: #e00;
+    text-decoration: none !important;
+}
+#boards a {
+    color: #f44336;
+    text-decoration: none;
+}
+
+#announce .boxbar {
+    background: #a4a4a4;
+    color: #222;
+    text-align: center;
+}
+
+.boxbar {
+    background: #a4a4a4;
+    color: #222;
+    text-align: center;
+}
+.top-box {
+    background: #222;
+}
+
+#ft li.current, #ft li.fill {
+    background: #222;
+    color: #222;
+}
+
+#ft ul {
+    border-top: 0px solid;
+}
+
+#ft li {
+    background: #222;
+    color: #a4a4a4;
+}
+
+#ft li a {
+    color: #f44336 !important;
+    text-decoration: none;
+}
+
+html {
+    background: #222;
+}
+
+close, .closebutton {
+    background: #222 url(/image/fp/icon-close-red.png);
+    display:none;
+}
+
 /* catalog */  
     
 .board {
