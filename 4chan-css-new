@@ -1,5 +1,28 @@
+/*post file */
+#postFile {
+    margin-right: 0px;
+    width: 300px;
+    background-color: #222;
+    color: #a4a4a4;
+    margin-left: 0px;
+}
+.postForm textarea,
+.postForm input,
+input[type="file"] {
+    background-color: #222 !important;
+    border: 1px solid #3e3e3e !important;
+    border-radius: 2px;
+    padding: 2px;
+    color: #a4a4a4 !important;
+    box-shadow: 0px 0px 3px black;
+    margin: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+    resize: none !important;
+}
+
 /*captcha box for no-js captcha*/
-textarea#g-recaptcha-response.g-recaptcha-response{
+textarea#g-recaptcha-response.g-recaptcha-response {
     width: 300px !important;
     height: 60px !important;
     border: 0px !important;
@@ -9,43 +32,35 @@ textarea#g-recaptcha-response.g-recaptcha-response{
 }
 
 /* FAQ Rules advertise */
-
 h2 {
     font-size: 131%;
     font-weight: 700;
     color: #222;
 }
-
 .left-box .boxbar {
     background: #3e3e3e;
     color: #222;
 }
-
 .right-box .boxbar {
     background: #3e3e3e;
 }
-
 .left-box {
     color: #3e3e3e;
     background: #222;
 }
-
 .right-box {
     color: #3e3e3e;
     background: #222;
 }
-
 dt {
     padding-top: 1.0em;
     margin-bottom: .5em;
     font-weight: bold;
     color: #a4a4a4 !important;
 }
-
 .boxcontent a {
     color: #f44336 !important;
 }
-
 .boxcontent dd {
     border-bottom: solid #a4a4a4 1px;
 }
@@ -53,7 +68,6 @@ dt {
 /* 4chan blog...
 
 not worth my time, I'd be suprised if you actually used this */
-
 
 /*news*/
 .content h3 {
@@ -68,11 +82,12 @@ not worth my time, I'd be suprised if you actually used this */
     line-height: 1.5em;
     color: #a4a4a4;
 }
+
 /*disclaimer*/
 #disclaimer-dialog .hd {
     border: 0;
     padding: 0;
-        padding-left: 0px;
+    padding-left: 0px;
     padding-left: .5em;
     line-height: 2em;
     background: #383838;
@@ -85,7 +100,6 @@ not worth my time, I'd be suprised if you actually used this */
     background-color: #222;
     color: #a4a4a4;
 }
-
 #disclaimer-dialog {
     color: #3e3e3e;
 }
@@ -96,7 +110,6 @@ not worth my time, I'd be suprised if you actually used this */
     background-color: #222;
     color: #a4a4a4;
 }
-
 #announce {
     background: #222;
     color: #383838;
@@ -105,20 +118,16 @@ not worth my time, I'd be suprised if you actually used this */
     margin: auto;
     display: block;
     border: 0;
-    background: url(https://imgur.com/3WXRh82.png) center top no-repeat; /*green varient https://i.imgur.com/msrfbun.png*/
+    background: url(https://imgur.com/3WXRh82.png) center top no-repeat;
+    /*green varient https://i.imgur.com/msrfbun.png*/
     -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    box-sizing: border-box;
     width: 448px;
     height: 240px;
-  padding-left: 448px;
+    padding-left: 448px;
 }
-
 .boxcontent {
     padding: .5em;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-    padding-top: .25em;
-    padding-bottom: 0;
     line-height: 130%;
     background-color: #222;
     color: #a4a4a4;
@@ -128,7 +137,6 @@ h3 {
     font-weight: 700;
     text-decoration: none !important;
 }
-
 #boards a:hover {
     color: #e00;
     text-decoration: none !important;
@@ -137,13 +145,11 @@ h3 {
     color: #f44336;
     text-decoration: none;
 }
-
 #announce .boxbar {
     background: #383838;
     color: #222;
     text-align: center;
 }
-
 .boxbar {
     background: #383838;
     color: #222;
@@ -153,406 +159,385 @@ h3 {
     background: #222;
     color: #383838;
 }
-
-#ft li.current, #ft li.fill {
+#ft li.current,
+#ft li.fill {
     background: #222;
     color: #222;
 }
-
 #ft ul {
     border-top: 0px solid;
 }
-
 #ft li {
     background: #222;
     color: #383838;
 }
-
 #ft li a {
     color: #f44336 !important;
     text-decoration: none;
 }
-
 html {
     background: #222;
 }
-
-close, .closebutton {
+close,
+.closebutton {
     background: #222 url(/image/fp/icon-close-red.png);
-    display:none;
+    display: none;
 }
 
-/* catalog */  
-    
+/* catalog */
+.catalog-post {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    border: 0px;
+    padding-top: 20px;
+}
+.catalog-post.catalog-post {
+    margin: -20px 0px 0px;
+    overflow: visible;
+}
 .board {
     margin: 0 auto !important;
     max-width: 1500px !important;
     margin-top: 20px !important;
-}    
-    
-.catalog-mode:root .board {
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    }    
-    
+}
 .navLinks {
     background: var(--post-bg) !important;
     padding: 0px !important;
     margin: 0 auto !important;
-    max-width: 1540px !important;
-    margin-top: 60px !important;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-}    
-  
+    max-width: 99% !important;
+    margin-top: 30px !important;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
 .catalog-mode:root .board {
-  padding: 25px !important;
-}  
-    
+    padding: 0px !important;
+}
 .catalog-stats {
     background: var(--alt-bg) !important;
     padding: 5px !important;
-}      
+}
 .catalog-thread > .subject {
     background: var(--header-bg) !important;
     padding: 5px !important;
-}    
+}
 .catalog-thread > .comment {
     background: var(--header-bg) !important;
     padding: 5px !important;
-}    
-    
+}
 
-/* dropdowns */    
-    
-select {    
+/* dropdowns */
+select {
     text-align: center !important;
-    width: 100px !important;    
-    height: 23px !important;
-}    
-    
+    width: 100px !important;
+    height: 20px !important;
+}
 #index-options select {
     margin-right: 10px !important;
-}    
-
+}
 
 /* Background */
 body {
- background: none;
- background-color: #222;
- color: #a4a4a4;
- font-size:90%;
+    background: none;
+    background-color: #222;
+    color: #a4a4a4;
+    font-size: 90%;
 }
 
 /* General links */
 a {
- color: #707070;
- text-decoration:none;
+    color: #707070;
+    text-decoration: none;
 }
 a:hover {
- color: #828282;
+    color: #828282;
 }
 a:visited {
- color: #b7b7b7;
+    color: #b7b7b7;
 }
-
 a.quotelink {
     color: #FFFFFF;
 }
 
 /* Board list */
 #boardNavDesktop a {
- color: #797!important;
+    color: #797!important;
 }
 #boardNavDesktop a:visited {
- color: #a88!important;
+    color: #a88!important;
 }
 #boardNavDesktop a:hover {
- color: #8f8!important;
-    }
-
-/* random other links */
-.postNum a, a.quotelink, .nameBlock, .nameBlock a {
- color: #a4a4a4!important;
+    color: #8f8!important;
 }
 
+/* random other links */
+.postNum a,
+a.quotelink,
+.nameBlock,
+.nameBlock a {
+    color: #a4a4a4!important;
+}
 span.subject {
     color: #a4a4a4 !important;
 }
 
 /*codeblocks*/
-  .prettyprint
-  {
+.prettyprint {
     background: none !important;
-  }
-
-  .prettyprint span
-  {
+}
+.prettyprint span {
     color: rgb(195, 195, 195) !important;
-  }
+}
 
 /* stuff */
-
-
-  a
-  {
+a {
     color: #f44336;
-  }
-
-
-div.post div.postInfo span.nameBlock span.name{
-color: #fff;
 }
-.reply:target, .reply.highlight{
-    background:#383838!important;
+div.post div.postInfo span.nameBlock span.name {
+    color: #fff;
+}
+.reply:target,
+.reply.highlight {
+    background: #383838!important;
     border: 1px solid #383838 !important;
 }
-
-div.post div.postInfo span.postNum > a
-{
-    color:#fff!important;
+div.post div.postInfo span.postNum > a {
+    color: #fff!important;
 }
 hr {
- border-color:#a5a5a5;
+    border-color: #a5a5a5;
 }
 div.op {
-  text-align:left;}
-  
-div.thread {
-    text-align:left;
+    text-align: left;
 }
-
-    .fileText {opacity: 0 !important;
-        max-height: 0px !important;
-        transition: .4s ease-out !important;
-    }
-    .file:hover .fileText,
-    .file.image-expanded .fileText {
-        opacity: 1 !important;
-        max-height: 22px !important;
-    }
-
+div.thread {
+    text-align: left;
+}
+.fileText {
+    opacity: 0 !important;
+    max-height: 0px !important;
+    transition: .4s ease-out !important;
+}
+.file:hover .fileText,
+.file.image-expanded .fileText {
+    opacity: 1 !important;
+    max-height: 22px !important;
+}
 
 /* posts */
 div.reply {
-  position: relative;
-  top: relative;
-  width: 99%;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
- background:none!important;
- background-color: #262626!important;
- border: 1px solid #333!important;
- border-radius:1px!important;
- box-shadow:0px 0px 1px black!important;
+    position: relative;
+    width: 99%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: none!important;
+    background-color: #262626!important;
+    border: 0px !important;
+    border-radius: 0px!important;
+    box-shadow: 0px 0px 2px black!important;
 }
-
-
 .sideArrows {
- display:none;
+    display: none;
 }
 .postingMode {
- font-family: Monospace;
- color:#888!important;
- background-color:#444844!important;
- border-top:1px solid #484a48!important;
- border-bottom:1px solid #484a48!important;
+    font-family: Monospace;
+    color: #888!important;
+    background-color: #444844!important;
+    border-top: 1px solid #484a48!important;
+    border-bottom: 1px solid #484a48!important;
 }
 table.postForm > tbody > tr > td:first-child {
- background-color:transparent;
- border:0px;
- color:#aaa;
- vertical-align:top;
+    background-color: transparent;
+    border: 0px;
+    color: #aaa;
+    vertical-align: top;
 }
-.postForm textarea, .postForm input, input[type="file"] {
- background-color:#444;
- border:1px solid #555!important;
- border-radius:2px;
- padding:2px;
- color:#aaa;
- box-shadow:0px 0px 6px black;
- margin:1px;
+postForm textarea,
+.postForm input,
+input[type="file"] {
+    background-color: #222 !important;
+    border: 1px solid #3e3e3e !important;
+    border-radius: 1px;
+    padding: 1px;
+    color: #a4a4a4 !important;
+    box-shadow: 0px 0px 0px black;
+    margin: 2px;
 }
 .globalMessage {
- color:#FFD24D!important;
+    color: #FFD24D!important;
 }
 
 /* Displays post number */
-body{counter-reset:posts;}
-div.reply{counter-increment: posts;}
-
-div.reply div.postInfo:after{
-float: right;
-font-size: 10px !important;
-color: white;
-opacity: 0.4;
-margin-left: 4px;
-padding: 2px;
-content: "#"counter(posts);
+body {
+    counter-reset: posts;
+}
+div.reply {
+    counter-increment: posts;
+}
+div.reply div.postInfo:after {
+    float: right;
+    font-size: 10px !important;
+    color: white;
+    opacity: 0.4;
+    margin-left: 4px;
+    padding: 2px;
+    content: "#"counter(posts);
+}
+div.reply div.reply div.postInfo:after,
+div.op > div.postInfo:after {
+    display: none;
 }
 
-  div.reply div.reply div.postInfo:after, div.op > div.postInfo:after{display:none;}
-
 /*Makes the comment box bigger*/
-textarea{height:10em !important;width:30em !important;}
+textarea {
+    height: 10em !important;
+    width: 30em !important;
+}
 
 /*removes the logo*/
-img.title,div.boardSubtitle{display:none !important;}
+img.title,
+div.boardSubtitle {
+    display: none !important;
+}
 
 /*removes the rules and info underneath the post box*/
-ul.rules{display:none !important;}
-div#absbot{display:none !important;}
-.bottomCtrl{display:none !important;}
-    .boardBanner {    /*   banner */
-     position: relative;
-     top: relative;
-     width: 100%;
-     left: 0;
-     right: 0;
-     margin-left: auto;
-     margin-right: auto;
+ul.rules {
+    display: none !important;
+}
+div#absbot {
+    display: none !important;
+}
+.bottomCtrl {
+    display: none !important;
+}
+.boardBanner {
+    /*   banner */
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: none !important;
-  }
-    
-    div.center,
-  h1,
-  hr,
-  .boardTitle,
+}
+div.center,
+h1,
+hr,
+.boardTitle,
+
 /*   .boardBanner,   
      */
-  .sideArrows,
+.sideArrows,
 .hide-thread-button,
-  .fa-plus-square-o::before,
+.fa-plus-square-o::before,
 .hide-reply-button.stub a::before,
-  .hide-reply-button,
-  .postingMode,
-  .stylechanger,
-  .webm-title,
-  .txt-no,
-	.txt-ctrl,hreadHideButton
-{
+.hide-reply-button,
+.postingMode,
+.stylechanger,
+.webm-title,
+.txt-no,
+.txt-ctrl,
+hreadHideButton {
     display: none !important;
-    }
-    
-
-    #custom-board-list {
-         font-family: "Helvetica" !important;
+}
+#custom-board-list {
+    font-family: "Helvetica" !important;
     white-space: normal !important;
-    top: 0px !important; 
-        -webkit-box-align:center;
-    -webkit-box-pack:center;
-    display:-webkit-box;
+    top: 0px !important;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    display: -webkit-box;
     z-index: 0 !important;
-  }
-    
-  #header-bar {
-      background: #222 !important;
+}
+#header-bar {
+    background: #222 !important;
     display: inline-block;
-    font-family: 'PT Sans',sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.2em;
-     position: relative;
-     top: relative;
-     width: 100%;
-     left: 0;
-     right: 0;
-     margin-left: auto;
-     margin-right: auto;
-    box-shadow: none !important;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Helvetica" !important;
-    }
-    
-      #board-list a {
+    box-shadow: 0px 0px 2px black !important;
+}
+#board-list a {
     padding-right: 50px !important;
     white-space: pre;
-          color: #a4a4a4 !important;
-    }
-  
-
-   #options.reply.dialog {
+    color: #a4a4a4 !important;
+}
+#options.reply.dialog {
     background: #222 !important;
     color: #717171 !important;
     border: none !important;
     z-index: 5 !important;
-  }
-
-  #options.reply.dialog label {
+}
+#options.reply.dialog label {
     text-decoration: none !important;
     font-style: italic !important;
     color: #a4a4a4 !important;
-  }
-
-  #optionsbar {
+}
+#optionsbar {
     border-bottom: 1px solid #eceef0 !important;
     margin: -5px !important;
     padding: 5px !important;
-  }
-
-  .suboption-list > div:last-of-type {
+}
+.suboption-list > div:last-of-type {
     background-color: #222 !important;
-  }
-
-  #fourchanx-settings.dialog {
+}
+#fourchanx-settings.dialog {
     background: #222 !important;
-  }
-
-  .dialog {
+}
+.dialog {
     background: none !important;
     color: #a4a4a4 !important;
     border: transparent !important;
-  }
-
-  .dialog a,
-  .dialog label {
+}
+.dialog a,
+.dialog label {
     text-decoration: none !important;
-  }
-    
-  #arc-sort{
-    border-bottom:1px dotted;
-    cursor:pointer;
-  }
-
-
-  #optionsContent > input:checked + div,
-  #updater:hover > div,
-  #updater .move,
-  #qr.dump #replies,
-  .hasSubMenu.focused > .subMenu {
+}
+#arc-sort {
+    border-bottom: 1px dotted;
+    cursor: pointer;
+}
+#optionsContent > input:checked + div,
+#updater:hover > div,
+#updater .move,
+#qr.dump #replies,
+.hasSubMenu.focused > .subMenu {
     display: block;
-  }
-
-  #fourchanx-settings.dialog a {
+}
+#fourchanx-settings.dialog a {
     color: #a4a4a4 !important;
-  }
-
-  #fourchanx-settings.dialog a:hover {
+}
+#fourchanx-settings.dialog a:hover {
     color: #222 !important;
-  }
-  
-  .yotsuba-b:root #fourchanx-settings fieldset, .yotsuba-b:root .section-main div::before {
+}
+.yotsuba-b:root #fourchanx-settings fieldset,
+.yotsuba-b:root .section-main div::before {
     border-color: #a4a4a4 !important;
-  }
-
-  
-  /*
+}
+/*
     
     QUICK REPLY
     
   */
-
-  #qr {
+#qr {
     border-radius: 3px !important;
-  }
+}
 
 /*  #qr > form {
     width: 300px;
   }*/
-    
-  #qr.dialog { 
+#qr.dialog {
     padding: 3px !important;
-    /*position: fixed !important;*/
-    display: inline !important;
+    display: block !important;
     visibility: hidden !important;
     top: -216px !important;
     right: 8px !important;
@@ -560,25 +545,21 @@ div#absbot{display:none !important;}
     bottom: auto !important;
     height: auto !important;
     width: 280px !important;
-    background: #a4a4a4 !important;
+    background: #3e3e3e !important;
     box-shadow: none !important;
     z-index: 2 !important;
     transition: all 0.5s ease !important;
-  }
-
-  #qr.dialog.has-captcha:not([Hidden]),
-  #qr.dialog:not([Hidden]) {
+}
+#qr.dialog.has-captcha:not([Hidden]),
+#qr.dialog:not([Hidden]) {
     visibility: visible !important;
     top: 32px !important;
-  }
-
-  #qr.dialog.has-captcha {
-    top:-298px !important;
+}
+#qr.dialog.has-captcha {
+    top: -298px !important;
     transition: all 0.9s ease;
-  }
-
-
-    #qr .move {
+}
+#qr .move {
     position: fixed !important;
     float: right !important;
     left: 0px !important;
@@ -591,43 +572,37 @@ div#absbot{display:none !important;}
     max-width: 15px !important;
     min-width: 15px !important;
     cursor: default !important;
-  }
-
-  #qr > div {
+}
+#qr > div {
     max-width: 600px !important;
     width: 600px !important;
-  }
-
-  textarea.field {
+}
+textarea.field {
     height: 15em !important;
     margin-bottom: 0px !important;
-  }
-
-  .field {
+    resize: none !important;
+}
+.field {
     border: none !important;
-  }
-
-  .field:hover {
+}
+.field:hover {
     box-shadow: none !important;
-  }
-    
-  .field:focus,
-  input:focus,
-  input[type="text"]:focus, 
-  input[type="password"]:focus, 
-  input:focus:not([type]), 
-  textarea:focus{
-    color:#a4a4a4;
+}
+.field:focus,
+input:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input:focus:not([type]),
+textarea:focus {
+    color: #a4a4a4;
     box-shadow: none !important;
-    border-color: #a4a4a4 !important;
-  }
-
-  input:-moz-placeholder,
-  textarea:-moz-placeholder {
+    border-color: #3e3e3e !important;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
     color: rgb(153, 153, 153) !important;
-  }
-
-  #qr-filename-container {
+}
+#qr-filename-container {
     font-family: "Helvetica" !important;
     box-shadow: none !important;
     border: none !important;
@@ -636,101 +611,86 @@ div#absbot{display:none !important;}
     max-height: 20px !important;
     min-width: 60.3% !important;
     max-width: 60.3% !important;
-  }
-
-  #qr.has-spoiler .has-file #qr-filename-container {
+}
+#qr.has-spoiler .has-file #qr-filename-container {
     min-width: 74% !important;
     max-width: 74% !important;
-  }
-
-  #qr-spoiler-label {
+}
+#qr-spoiler-label {
     max-height: 18px !important;
     min-height: 18px !important;
     margin-top: 1px !important;
     margin-left: -13.1px !important;
     background: #222 !important;
-  }
-
-  #qr-spoiler-label input {
+}
+#qr-spoiler-label input {
     top: 2px !important;
-  }
-
-  #qr-filename {
+}
+#qr-filename {
     min-width: 86.4% !important;
     max-width: 86.4% !important;
     text-overflow: ellipsis !important;
-  }
-
-  #file-n-submit {
+}
+#file-n-submit {
     background-color: #222 !important;
     height: 20px !important;
     margin-top: -1px !important;
     border: none !important;
-  }
-
-  #file-n-submit input {
+}
+#file-n-submit input {
     font-family: "Helvetica" !important;
     width: 25.9% !important;
     border-radius: 0px;
-  }
-
-  #file-n-submit.has-file input {
+}
+#file-n-submit.has-file input {
     font-family: "Helvetica" !important;
     margin-left: -1.5px !important;
     width: 26.4% !important;
-  }
-
-  #qr-filerm {
+}
+#qr-filerm {
     color: #222 !important;
     bottom: 2px !important;
     right: 10px !important;
-  }
-
-  #qr [type=file] [type=text]:focus {
-    border: 1px solid grey !important; 
-  }
-
-  textarea,
-  .field,
-  #qr [type=file] [type=text] {
+}
+#qr [type=file] [type=text]:focus {
+    border: 1px solid #3e3e3e !important;
+}
+textarea,
+.field,
+#qr [type=file] [type=text] {
     -moz-appearance: none !important;
     background-color: #222 !important;
     font-size: 12px !important;
     vertical-align: middle !important;
-  }
-
-  select,
-  textarea:not(:focus),
-  .field:not(:focus) {
+}
+select,
+textarea:not(:focus),
+.field:not(:focus) {
     box-shadow: none;
     background: #222 !important;
-  }
-
-  #qr [type=file] [type=text]:not(:focus) {
+}
+#qr [type=file] [type=text]:not(:focus) {
     background: #222 !important;
-  }
-
-  #qr [type=file] [type=text] {
+}
+#qr [type=file] [type=text] {
     float: right !important;
-  }
-
-  #dump-button:hover,
-  input[type="submit"]:hover,
-  input[type="submit"]:active,
-  input[type="submit"].active,
-  input[type="submit"].disabled,
-  input[type="submit"][disabled] {
+}
+#dump-button:hover,
+input[type="submit"]:hover,
+input[type="submit"]:active,
+input[type="submit"].active,
+input[type="submit"].disabled,
+input[type="submit"][disabled] {
     background-color: #fafafa !important;
-  }
-
-  input[type="submit"] {
-       font-family: "Helvetica" !important;
-      color:#a4a4a4;
+}
+input[type="submit"] {
+    font-family: "Helvetica" !important;
+    color: #a4a4a4;
     margin-top: 1px !important;
     background: #222 !important;
     text-align: center !important;
     margin-left: -1px !important;
-    padding-bottom:1px!important;
+    padding-bottom: 1px!important;
     width: 25.2% !important;
     cursor: pointer !important;
     background-repeat: repeat-x !important;
@@ -743,152 +703,123 @@ div#absbot{display:none !important;}
     border-image: none !important;
     -moz-appearance: none !important;
     box-shadow: none !important;
-  }
-
-  input[type="submit"] {
-    border-top:none!important;
+}
+input[type="submit"] {
+    border-top: none!important;
     border: none !important;
-  }
-
-  input[name="name"],
-  input[name="email"],
-  input[name="sub"] {
-    border-top: none !important;
+}
+input[name="name"],
+input[name="email"],
+input[name="sub"] {
     max-height: 24px !important;
     min-height: 24px !important;
-  }
-
-  input[name="sub"] {
-    border-right: 1px solid #dedede !important;
-  }
-
-  .persona {
+}
+input[name="sub"] {
+    border-right: 1px solid #3e3e3e !important;
+}
+.persona {
     max-height: 20px !important;
     min-height: 20px !important;
     margin-bottom: 4px !important;
-  }
-
-  #replies > div {
+}
+#replies > div {
     border-top: 1px solid rgba(0, 0, 0, .094) !important;
     border-left: 1px solid #dedede !important;
     border-right: 1px solid #dedede !important;
-  }
-
-  #replies > div .thumbnail {
-    background-color: rgba(160,160,160,.5) !important;
-  }
-
-  #dump-list-container {
+}
+#replies > div .thumbnail {
+    background-color: rgba(160, 160, 160, .5) !important;
+}
+#dump-list-container {
     margin-bottom: -1px !important;
     background: #222 !important;
     border-left: 1px solid #dedede !important;
     border-right: 1px solid #dedede !important;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, .095) inset;
-  }
-
-  #add-post {
+}
+#add-post {
     color: #a4a4a4 !important;
-  }
-
-  .qr-preview {
+}
+.qr-preview {
     margin-bottom: 1px !important;
-  }
-  
-  #url-button, #paste-area, #dump-button {
+}
+#url-button,
+#paste-area,
+#dump-button {
     color: #a4a4a4 !important;
-  }
-  
-  #url-button:hover, #paste-area:hover, #dump-button:hover {
+}
+#url-button:hover,
+#paste-area:hover,
+#dump-button:hover {
     color: var(--accent-color) !important;
-  }
-  
-  .party-hat {
+}
+.party-hat {
     left: 375px !important;
     z-index: 1 !important;
-  }
-  
-  
-
-  
-  
-  
-   /*
+}
+/*
     
       MENU BUTTON
     
   */
-
-  .postContainer .menu-button {
+.postContainer .menu-button {
     float: right !important;
     margin-right: 8px !important;
-/*     margin-top: 5px !important; */
+    /*     margin-top: 5px !important; */
     font-size: 0 !important;
-  }
-
-  .menu-button::after {
+}
+.menu-button::after {
     width: 50px !important;
     height: 20px !important;
-  }
-
-  .post.op .menu-button,
-  .postContainer .menu-button {
+}
+.post.op .menu-button,
+.postContainer .menu-button {
     opacity: 0 !important;
-  }
-
-  .post.op:hover .menu-button,
-  .postContainer:hover .menu-button {
+}
+.post.op:hover .menu-button,
+.postContainer:hover .menu-button {
     opacity: 1 !important;
-  }
-
-  .postContainer .menu-button:hover::after {
+}
+.postContainer .menu-button:hover::after {
     color: #6482a1 !important;
-  } 
-   
-  .menu-button:hover::after {
+}
+.menu-button:hover::after {
     color: #666 !important;
-  }
-   
-   
-  #menu.reply.dialog {
+}
+#menu.reply.dialog {
     display: block !important;
     margin-left: 0 !important;
     margin-top: -1px !important;
     border: 1px solid #ccc !important;
-  }
-   
-  .subMenu {
+}
+.subMenu {
     left: -105px !important;
     width: 100px !important;
-  }  
-
-  .entry,
-  .entry a,
-  .subMenu {
+}
+.entry,
+.entry a,
+.subMenu {
     background: #ffffff !important;
     color: #999 !important;
     font-size: 12pt !important;
-    border:none!important;
-  }
-
-  .entry:hover,
-  .entry a:hover {
+    border: none!important;
+}
+.entry:hover,
+.entry a:hover {
     color: #000000 !important;
-  }
-  
-  .stub {
+}
+.stub {
     padding: 16px !important;
-  } 
-  
-  .show-reply-button {
+}
+.show-reply-button {
     font-size: 12pt !important;
     font-weight: 800 !important;
     margin-left: 6px !important;
-  }
-  
-  .show-reply-button:after {
+}
+.show-reply-button:after {
     font-size: 12pt !important;
     font-weight: 400 !important;
     margin-left: 8px !important;
     color: #a8a8a8 !important;
     content: "post has been hidden" !important;
-  }
+}
