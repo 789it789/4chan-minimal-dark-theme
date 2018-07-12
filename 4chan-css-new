@@ -1,3 +1,22 @@
+/*paged*/
+div.pagelist div.cataloglink{
+    display: none;
+}
+div.pagelist {
+    font-size: 14px !important;
+    margin: 0;
+    padding: 0px 0px;
+    border: 0;
+    background: #222;
+    list-style: none;
+    overflow: hidden;
+    color: #222;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
 /*post file */
 #postFile {
     margin-right: 0px;
