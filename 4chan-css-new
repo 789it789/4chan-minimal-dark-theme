@@ -1,3 +1,85 @@
+/* FAQ Rules advertise */
+
+h2 {
+    font-size: 131%;
+    font-weight: 700;
+    color: #222;
+}
+
+.left-box .boxbar {
+    background: #3e3e3e;
+    color: #222;
+}
+
+.right-box .boxbar {
+    background: #3e3e3e;
+}
+
+.left-box {
+    color: #3e3e3e;
+    background: #222;
+}
+
+.right-box {
+    color: #3e3e3e;
+    background: #222;
+}
+
+dt {
+    padding-top: 1.0em;
+    margin-bottom: .5em;
+    font-weight: bold;
+    color: #a4a4a4 !important;
+}
+
+.boxcontent a {
+    color: #f44336 !important;
+}
+
+.boxcontent dd {
+    border-bottom: solid #a4a4a4 1px;
+}
+
+/* 4chan blog...
+
+not worth my time, I'd be suprised if you actually used this */
+
+
+/*news*/
+.content h3 {
+    background: #3e3e3e;
+    border: 0px;
+    color: #222;
+    font-size: 116%;
+    padding: .5em;
+    text-align: center;
+}
+.content {
+    line-height: 1.5em;
+    color: #a4a4a4;
+}
+/*disclaimer*/
+#disclaimer-dialog .hd {
+    border: 0;
+    padding: 0;
+        padding-left: 0px;
+    padding-left: .5em;
+    line-height: 2em;
+    background: #383838;
+    color: #222;
+    position: relative;
+    text-align: center;
+}
+#disclaimer-dialog .bd {
+    padding: 8px;
+    background-color: #222;
+    color: #a4a4a4;
+}
+
+#disclaimer-dialog {
+    color: #3e3e3e;
+}
+
 /*mainpage*/
 #wot-cnt {
     min-height: 91px;
