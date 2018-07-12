@@ -95,7 +95,7 @@ not worth my time, I'd be suprised if you actually used this */
     margin: auto;
     display: block;
     border: 0;
-    background: url(https://i.imgur.com/msrfbun.png) center top no-repeat;
+    background: url(https://imgur.com/3WXRh82.png) center top no-repeat; /*green varient https://i.imgur.com/msrfbun.png*/
     -moz-box-sizing: border-box;
   box-sizing: border-box;
     width: 448px;
