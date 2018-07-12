@@ -65,10 +65,6 @@ dt {
     border-bottom: solid #a4a4a4 1px;
 }
 
-/* 4chan blog...
-
-not worth my time, I'd be suprised if you actually used this */
-
 /*news*/
 .content h3 {
     background: #3e3e3e;
@@ -396,10 +392,16 @@ textarea {
     width: 30em !important;
 }
 
-/*removes the logo*/
-img.title,
-div.boardSubtitle {
-    display: none !important;
+/*logo*/
+div.boardBanner > div.boardTitle {
+    color: #3e3e3e;
+    text-shadow: none !important;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 8px;
+    margin-bottom: 30px;
 }
 
 /*removes the rules and info underneath the post box*/
@@ -412,8 +414,9 @@ div#absbot {
 .bottomCtrl {
     display: none !important;
 }
+
+/*   banner */
 .boardBanner {
-    /*   banner */
     position: relative;
     width: 100%;
     left: 0;
@@ -422,13 +425,10 @@ div#absbot {
     margin-right: auto;
     box-shadow: none !important;
 }
+
 div.center,
 h1,
 hr,
-.boardTitle,
-
-/*   .boardBanner,   
-     */
 .sideArrows,
 .hide-thread-button,
 .fa-plus-square-o::before,
@@ -523,18 +523,11 @@ hreadHideButton {
 .yotsuba-b:root .section-main div::before {
     border-color: #a4a4a4 !important;
 }
-/*
-    
-    QUICK REPLY
-    
-  */
+
+/*  QUICK REPLY  */
 #qr {
     border-radius: 3px !important;
 }
-
-/*  #qr > form {
-    width: 300px;
-  }*/
 #qr.dialog {
     padding: 3px !important;
     display: block !important;
@@ -757,15 +750,11 @@ input[name="sub"] {
     left: 375px !important;
     z-index: 1 !important;
 }
-/*
-    
-      MENU BUTTON
-    
-  */
+
+/*  MENU BUTTON  */
 .postContainer .menu-button {
     float: right !important;
     margin-right: 8px !important;
-    /*     margin-top: 5px !important; */
     font-size: 0 !important;
 }
 .menu-button::after {
@@ -799,7 +788,7 @@ input[name="sub"] {
 .entry,
 .entry a,
 .subMenu {
-    background: #ffffff !important;
+    background: #fff !important;
     color: #999 !important;
     font-size: 12pt !important;
     border: none!important;
