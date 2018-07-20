@@ -423,6 +423,13 @@ div.boardBanner > div.boardTitle {
     margin-bottom: 30px;
 }
 
+div.boardBanner > div.boardSubtitle {
+    font-size: x-small;
+    color: #a4a4a4;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
 /*removes the rules and info underneath the post box*/
 ul.rules {
     display: none !important;
