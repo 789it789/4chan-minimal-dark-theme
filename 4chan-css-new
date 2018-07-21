@@ -211,6 +211,7 @@ close,
 .catalog-post.catalog-post {
     margin: -20px 0px 0px;
     overflow: visible;
+    background-color: #222 !important;
 }
 .board {
     margin: 0 auto !important;
@@ -241,7 +242,7 @@ close,
     padding: 5px !important;
 }
 
-/* dropdowns */
+/* dropdowns & search */
 select {
     text-align: center !important;
     width: 100px !important;
@@ -249,6 +250,13 @@ select {
 }
 #index-options select {
     margin-right: 10px !important;
+}
+#index-search {
+    padding-right: 0em;
+    width: 57px !important;
+}
+#index-search:focus, #index-search[data-searching] {
+    width: 200px !important;
 }
 
 /* Background */
@@ -261,17 +269,23 @@ body {
 
 /* General links */
 a {
-    color: #707070;
+    color: #f44336 !important;
     text-decoration: none;
 }
 a:hover {
-    color: #828282;
+    color: #a4a4a4 !important;
+    text-decoration: none;
 }
 a:visited {
-    color: #b7b7b7;
+    color: #fff !important;
+    text-decoration: none;
 }
 a.quotelink {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+a.sauce {   /* 4chanx */
+    text-decoration: none;
 }
 
 /* Board list */
@@ -305,9 +319,6 @@ span.subject {
 }
 
 /* stuff */
-a {
-    color: #f44336;
-}
 div.post div.postInfo span.nameBlock span.name {
     color: #fff;
 }
@@ -687,6 +698,10 @@ textarea:not(:focus),
 .field:not(:focus) {
     box-shadow: none;
     background: #222 !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    border-color: #3e3e3e !important;
+    height: 20px;
 }
 #qr [type=file] [type=text]:not(:focus) {
     background: #222 !important;
