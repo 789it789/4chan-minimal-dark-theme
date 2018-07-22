@@ -277,7 +277,7 @@ a:hover {
     text-decoration: none;
 }
 a:visited {
-    color: #fff !important;
+    color: #f44336 !important;
     text-decoration: none;
 }
 a.quotelink {
