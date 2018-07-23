@@ -1,4 +1,4 @@
-/* this is intended for the no-script captcha */
+/* this is intended for use with the no-js captcha */
 .fbc {
     background: #222 !important;
     border: 1px solid #3e3e3e !important;
@@ -51,4 +51,289 @@
     padding: 0px 10px 0px 10px;
     text-align: center;
     width: 280px;
+}
+.fbc-payload-imageselect {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* check boxes */
+.fbc-imageselect-checkbox-1 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 38px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: 0;
+}
+
+.fbc-imageselect-checkbox-1:checked {
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 46px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: .8;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   -o-appearance: none;
+   appearance:none;
+   outline: 8px solid #222;
+   box-shadow: none;
+   font-size: 2em;
+}
+
+.fbc-imageselect-checkbox-2 {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 140px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: 0;
+}
+
+.fbc-imageselect-checkbox-2:checked {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 140px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: .8;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance:none;
+  outline: 8px solid #222;
+  box-shadow: none;
+  font-size: 2em;
+}
+
+.fbc-imageselect-checkbox-3 {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 235px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: 0;
+}
+
+.fbc-imageselect-checkbox-3:checked {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 235px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: .8;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance:none;
+  outline: 8px solid #222;
+  box-shadow: none;
+  font-size: 2em;
+}
+
+.fbc-imageselect-checkbox-4 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 46px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: 0;
+}
+
+.fbc-imageselect-checkbox-4:checked {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 46px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: .8;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance:none;
+  outline: 8px solid #222;
+  box-shadow: none;
+  font-size: 2em;
+}
+
+.fbc-imageselect-checkbox-5 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 140px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: 0;
+}
+
+.fbc-imageselect-checkbox-5:checked {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 140px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: .8;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance:none;
+  outline: 8px solid #222;
+  box-shadow: none;
+  font-size: 2em;
+}
+
+.fbc-imageselect-checkbox-6 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 235px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: 0;
+}
+
+.fbc-imageselect-checkbox-6:checked {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 235px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: .8;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance:none;
+  outline: 8px solid #222;
+  box-shadow: none;
+  font-size: 2em;
+}
+
+.fbc-imageselect-checkbox-7 {
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 46px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: 0;
+}
+
+.fbc-imageselect-checkbox-7:checked {
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 46px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: .8;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance:none;
+  outline: 8px solid #222;
+  box-shadow: none;
+  font-size: 2em;
+}
+
+.fbc-imageselect-checkbox-8 {
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 140px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: 0;
+}
+
+.fbc-imageselect-checkbox-8:checked {
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 140px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: .8;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance:none;
+  outline: 8px solid #222;
+  box-shadow: none;
+  font-size: 2em;
+}
+
+.fbc-imageselect-checkbox-9 {
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 235px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: 0;
+}
+
+.fbc-imageselect-checkbox-9:checked {
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 235px;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
+    transform: scale(6);
+    opacity: .8;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance:none;
+  outline: 8px solid #222;
+  box-shadow: none;
+  font-size: 2em;
 }
