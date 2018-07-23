@@ -355,6 +355,28 @@ div.thread {
     max-height: 22px !important;
 }
 
+/* post button */
+table.postForm input[type="submit"] {
+    margin-left: 10px !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    height: 30px;
+    border-color: #3e3e3e !important;
+    color: #a4a4a4 !important;
+    transition-duration: 0.4s;
+}
+
+table.postForm input[type="submit"]:hover {
+    margin-left: 10px !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    background-color: #222 !important;
+    height: 30px;
+    border-color: #a4a4a4 !important;
+    color: #a4a4a4 !important;
+    transition-duration: 0.4s;
+}
+
 /* posts */
 div.reply {
     position: relative;
