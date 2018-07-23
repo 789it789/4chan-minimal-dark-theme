@@ -337,3 +337,24 @@
   box-shadow: none;
   font-size: 2em;
 }
+
+.fbc-verification-token textarea {
+    background: #222;
+    border: 1px solid #3e3e3e;
+    color: #fff;
+    font-size: 10px;
+    height: 100%;
+    padding: 0;
+    resize: none;
+    width: 100%;
+}
+
+.fbc-message {
+    font-family: Roboto,helvetica,arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 20px;
+    width: 250px;
+    margin-left: 25px;
+    text-align: center;
+}
