@@ -1,0 +1,54 @@
+/* this is intended for the no-script captcha */
+.fbc {
+    background: #222 !important;
+    border: 1px solid #3e3e3e !important;
+    border-radius: 3px;
+    height: 421px;
+    width: 300px;
+    color: #a4a4a4 !important;
+}
+.fbc-header {
+    height: 38px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.fbc-imageselect-message-without-candidate-image {
+    font-family: Roboto,helvetica,arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 20px;
+    margin-top: -40px;
+    margin-left: 0px;
+    word-wrap: break-word
+}
+.fbc-logo {
+    display: none !important;
+}
+.fbc-privacy {
+    display: none;
+}
+.fbc-why-fallback {
+    display: none;
+}
+.fbc-button {
+    display: none;
+}
+.fbc-button-verify input {
+    background: #3e3e3e;
+    border: 0;
+    border-radius: 0px;
+    color: #a4a4a4;
+    cursor: pointer;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    height: 70px;
+    margin-top: 2px;
+    min-width: 74px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    width: 280px;
+}
