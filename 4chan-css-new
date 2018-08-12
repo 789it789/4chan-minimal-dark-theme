@@ -592,6 +592,15 @@ hreadHideButton {
 }
 
 /*  QUICK REPLY  */
+#qr label input[type="checkbox"] {
+    position: relative;
+    top: 2px;
+    display: none;
+}
+#qr select[data-name="thread"] {
+    float: right;
+    display: none;
+}
 #qr {
     border-radius: 3px !important;
 }
