@@ -354,6 +354,9 @@ div.thread {
     opacity: 1 !important;
     max-height: 22px !important;
 }
+.globalMessage, h2, h3, h4 {
+    color: #a4a4a4 !important;
+}
 
 /* post button */
 table.postForm input[type="submit"] {
