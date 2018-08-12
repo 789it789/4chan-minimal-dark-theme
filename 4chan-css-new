@@ -732,6 +732,10 @@ textarea:not(:focus),
     border-width: 2px !important;
     border-color: #3e3e3e !important;
     height: 20px;
+    color: #a4a4a4;
+}
+.field:hover, .field:focus, .field.focus {
+    color: #a4a4a4;
 }
 #qr [type=file] [type=text]:not(:focus) {
     background: #222 !important;
